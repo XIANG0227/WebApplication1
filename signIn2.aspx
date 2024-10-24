@@ -174,7 +174,7 @@ body{
 
   <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
 	  	    <script>
-                 /* $(document).ready(function () {
+                 $(document).ready(function () {
                       // Load the username from localStorage if available
                       if (localStorage.getItem("rememberMe") === "true") {
                           $("#rememberMe").prop("checked", true);
@@ -193,7 +193,7 @@ body{
                           } else {
                               localStorage.removeItem("username");
                               localStorage.removeItem("rememberMe");
-                          }*/
+                          }
         
                           $.ajax({
                               type: "post",
